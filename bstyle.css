@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#tooltip {
+  visibility: hidden;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 256px;
+  color: black;
+  background-color: lightskyblue;
+  border: 1px solid blue;
+  border-radius: 4px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  padding: 1px;
+}
+
+.yLabel {
+  text-anchor: middle;
+  transform: rotateZ(-90deg);
+}
+
+#title {
+  text-align: center;
+  width: 900px;
+}
